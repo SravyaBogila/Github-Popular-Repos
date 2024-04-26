@@ -46,8 +46,8 @@ class GithubPopularRepos extends Component {
         id: eachRepository.id,
         imageUrl: eachRepository.avatar_url,
         name: eachRepository.name,
-        starsCount: eachRepository.starsCount,
-        forksCount: eachRepository.forksCount,
+        starsCount: eachRepository.stars_count,
+        forksCount: eachRepository.forks_count,
         issuesCount: eachRepository.issues_count,
       }))
       this.setState({
